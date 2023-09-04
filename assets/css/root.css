@@ -67,6 +67,34 @@
 .bg-grey {
   background-color: var(--bg-gray);
 }
+@font-face {
+  font-family: "gilroy-black";
+  src: url(../fonts/Gilroy-Black.ttf);
+}
+.gilroy_black {
+  font-family: "gilroy-black";
+}
+@font-face {
+  font-family: "gilroy-bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+}
+.gilroy_bold {
+  font-family: "gilroy-bold";
+}
+@font-face {
+  font-family: "gilroy-medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+.gilroy_medium {
+  font-family: "gilroy-medium";
+}
+@font-face {
+  font-family: "gilroy-regular";
+  src: url(../fonts/Gilroy-Regular.ttf);
+}
+.gilroy_regular {
+  font-family: "gilroy-regular";
+}
 @media (max-width: 576px) {
   :root {
     --fs-sm: 16px;

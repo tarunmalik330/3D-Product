@@ -26,7 +26,7 @@
 .pb-100 {
   padding-bottom: 100px;
 }
-.z_index_4{
+.z_index_4 {
   z-index: 4;
 }
 .background-img {
@@ -212,6 +212,29 @@
 }
 .pointer_event_none {
   pointer-events: none;
+}
+
+.glass_hover {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.glass_hover::before {
+  content: "";
+  background: rgb(255, 255, 255, 0.4);
+  width: 50%;
+  height: 100%;
+  left: -125%;
+  top: 0%;
+  transform: skew(45deg);
+  filter: blur(30px);
+  position: absolute;
+  transition: left 0.5s ease-in-out;
+}
+
+.glass_hover:hover::before {
+  left: 150%;
 }
 @media (max-width: 992px) {
   .mobile_view {

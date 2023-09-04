@@ -6,6 +6,7 @@
   --fs-xl: 45px;
   --fs-xxl: 65px;
   --fs-3xl: 138px;
+  --fs-4xl: 122px;
   --text-black: #070707;
   --bg-gray: #e1e1e1;
 }
@@ -41,6 +42,9 @@
 }
 .fs-138 {
   font-size: var(--fs-3xl);
+}
+.fs-122 {
+  font-size: var(--fs-4xl);
 }
 
 /* font-weight */
@@ -103,6 +107,7 @@
     --fs-xl: 45px !important;
     --fs-xxl: 33px !important;
     --fs-3xl: 45px !important;
+    --fs-4xl: 50px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -113,6 +118,7 @@
     --fs-xl: 34px !important;
     --fs-xxl: 58px !important;
     --fs-3xl: 78px !important;
+    --fs-4xl: 84px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -123,5 +129,6 @@
     --fs-xl: 34px !important;
     --fs-xxl: 58px !important;
     --fs-3xl: 100px !important;
+    --fs-4xl: 100px;
   }
 }

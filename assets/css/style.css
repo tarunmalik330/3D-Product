@@ -39,6 +39,12 @@
   padding: 16px 31px 16px 31px;
   border-radius: 59px;
   background: linear-gradient(133.72deg, #ff2801 -0.47%, #ff6500 90.6%);
+  transition: all 0.3s linear;
+}
+.button:hover{
+  transform: scale(1.01);
+  transition: all 0.3s linear;
+  /* box-shadow: 0px 5px 15px #ff6500; */
 }
 .submit-button {
   width: 111px;
@@ -46,6 +52,7 @@
   border: none;
   background: linear-gradient(133.72deg, #ff2801 -0.47%, #ff6500 90.6%);
   border-radius: 47px;
+  box-shadow: 0px 5px 10px #ff590094;
 }
 .px-7 {
   padding-left: 7px;

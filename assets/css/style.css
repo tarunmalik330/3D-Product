@@ -269,6 +269,9 @@
 .pb_50 {
   padding-bottom: 50px;
 }
+.pl-16 {
+  padding-left: 16px;
+}
 @media (max-width: 992px) {
   .mobile_view {
     position: fixed;
